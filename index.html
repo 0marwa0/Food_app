@@ -1,11 +1,195 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link href="./index.css" rel="stylesheet" type="text/css" />
   </head>
+
   <body>
-    <div><p>Hello World!</p></div>
+    <header>
+      <div>
+        <img src="./images/logo.svg" alt="logo" />
+      </div>
+
+      <div class="user-nav">
+        <div class="business-btn">
+          <img src="./images/bus-icon.svg" alt="business icon" />
+          <p>Start your business</p>
+        </div>
+        <button class="main-btn">
+          <img src="./images/account-icon.svg" alt="account icon" />
+          <p>Account</p>
+        </button>
+      </div>
+    </header>
+
+    <section class="hearo">
+      <!-- Text Section -->
+      <div>
+        <span class="hearo-title">Are You Hungry?</span>
+        <p class="hearo-text">
+          Order Your Favorite Food From Restaurants and shops
+        </p>
+        <div class="search-container">
+          <input class="search-input" type="text" placeholder="Enter Address" />
+          <button class="main-btn">Search</button>
+        </div>
+      </div>
+      <!-- Image Section -->
+      <div>
+        <img src="./images/image.png" />
+      </div>
+    </section>
+    <section class="center">
+      <section class="steps-info">
+        <div>
+          <img src="./images/how-it-works.png" alt="food" />
+        </div>
+
+        <section class="text-image">
+          <div>
+            <span class="steps-head">How It Works</span>
+            <div>
+              <!-- Item div -->
+              <div class="step-item">
+                <div class="step-num">01</div>
+                <div>
+                  <p class="step-title">Enter Your Location</p>
+                  <p class="step-doc">
+                    We'll Show you stores and restaurants nearby you can order
+                    from
+                  </p>
+                </div>
+              </div>
+              <!-- Item div -->
+              <!-- Item div -->
+              <div class="step-item">
+                <div class="step-num">02</div>
+                <div>
+                  <p class="step-title">Find What You Want</p>
+                  <p class="step-doc">
+                    Search for items or dishes, businesses or cuisines.
+                  </p>
+                </div>
+              </div>
+              <!-- Item div -->
+              <!-- Item div -->
+              <div class="step-item">
+                <div class="step-num">03</div>
+                <div>
+                  <p class="step-title">Order For Delivery</p>
+                  <p class="step-doc">
+                    We'll update you on your order's progress.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="side-image">
+            <img src="./images/macrona.png" alt="food" />
+          </div>
+        </section>
+      </section>
+    </section>
+
+    <section class="app-section">
+      <div>
+        <div>
+          <p class="app-download">Download Our Mobile App</p>
+          <p class="app-text">And order food easily</p>
+        </div>
+        <div class="btn-app-container">
+          <button class="btn-app btn-app-dark">
+            <img src="./apple-icon.svg" />
+            <p>Apple Store</p>
+          </button>
+          <button class="btn-app">
+            <img src="./google-icon.svg" />
+            <p>Google Play</p>
+          </button>
+        </div>
+
+        <p class="app-text">Or Login or Create an Account to start order</p>
+      </div>
+
+      <div class="image-container">
+        <img src="./app-image.png" alt="Mobile App Display" />
+      </div>
+    </section>
+    <footer>
+      <section>
+        <img src="./images/logo.svg" alt="" />
+        <p class="footer-text">
+          Order Your Favorite Food From Restaurants and shops
+        </p>
+        <div class="btn-app-container">
+          <button class="btn-app btn-app-dark">
+            <img src="./apple-icon.svg" />
+            <p>Apple Store</p>
+          </button>
+          <button class="btn-app">
+            <img src="./google-icon.svg" />
+            <p>Google Play</p>
+          </button>
+        </div>
+      </section>
+      <section class="footer-list">
+        <div class="list-head-footer">Foods</div>
+        <div class="ul-list">
+          <ul>
+            <li>Food</li>
+            <li>Pizza</li>
+            <li>Chinese</li>
+            <li>Vegan</li>
+            <li>Sushi</li>
+            <li>Indian</li>
+          </ul>
+          <ul>
+            <li>Doner</li>
+            <li>Burgers</li>
+            <li>Ice Cream</li>
+            <li>Asian</li>
+            <li>Groceries</li>
+            <li>Order more food</li>
+          </ul>
+        </div>
+      </section>
+      <section class="footer-list">
+        <div class="list-head-footer">Quick Links</div>
+        <div class="ul-list">
+          <ul>
+            <li>Customer Service</li>
+            <li>Recommend a business</li>
+            <li>List Your Business</li>
+            <li>Become an affiliate</li>
+            <li>Become a courier</li>
+            <li>Jobs</li>
+          </ul>
+          <ul>
+            <li>Points</li>
+            <li>Terms of use</li>
+            <li>Privacy Statement</li>
+            <li>Colophon</li>
+            <li>Cookie statement</li>
+            <li>Newsroom</li>
+          </ul>
+        </div>
+      </section>
+    </footer>
+    <section class="copy-right">
+      <div>
+        <p class="copy-right-text">Hanki By TeachMeCode Institute 2024</p>
+      </div>
+      <div>
+        <img src="" alt="facebook-icon" />
+        <img src="" />
+        <img src="" />
+        <img src="" />
+      </div>
+    </section>
   </body>
 </html>

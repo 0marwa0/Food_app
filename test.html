@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .box {
+        width: 400px;
+        height: 400px;
+        background: red;
+        transition: background-img 2s, width 2s;
+        background-repeat: no-repeat;
+      }
+
+      .box:hover {
+        width: 900px;
+        background-image: url("https://t4.ftcdn.net/jpg/05/62/99/31/360_F_562993122_e7pGkeY8yMfXJcRmclsoIjtOoVDDgIlh.jpg");
+      }
+    </style>
+  </head>
+  <body>
+    <h1>The transition Property</h1>
+
+    <p>Hover over the div element below, to see the transition effect:</p>
+    <div class="box" id="box-id"></div>
+  </body>
+</html>
