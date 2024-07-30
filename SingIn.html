@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="form-group my-4">
+        <label for="email" class="my-2">Email</label>
+        <input
+          type="email"
+          class="form-control"
+          id="email"
+          autocomplete="email"
+        />
+      </div>
+      <div class="form-group my-4">
+        <label for="username" class="my-2">Password</label>
+        <input
+          type="password"
+          class="form-control"
+          id="password"
+          placeholder="Enter username"
+          autocomplete="password"
+        />
+      </div>
+
+      <button id="login" class="btn btn-primary">Login</button>
+    </div>
+    <script src="./singin.js" type="module"></script>
+  </body>
+</html>

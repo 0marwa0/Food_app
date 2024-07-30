@@ -92,6 +92,8 @@ header {
   top: 50%;
   left: 10%;
   width: 80%;
+  overflow-x: scroll;
+  border: 2px solid red;
   position: absolute;
 }
 .bg-orange-light {
